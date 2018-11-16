@@ -1,7 +1,4 @@
-
-
- 
- def get_first_name_of_season_winner(data, season)
+def get_first_name_of_season_winner(data, season)
 
   
     data[season].each do |people|
