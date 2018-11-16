@@ -9,6 +9,8 @@ require 'pry'
         if v == "Winner"
             full_name = people["name"]
             return full_name.split(' ').first
+                binding.pry
+
         end 
       end
     end
